@@ -2,7 +2,7 @@ Repository for golang with gotty and vim.
 
 ## Starting a container
 
-`docker run -it --rm -p 8080 arunsworld/golang:latest`
+`docker run -d --name gotty --rm -p 8080 arunsworld/golang:latest`
 
 ## What do you get?
 
