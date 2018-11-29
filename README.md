@@ -4,6 +4,8 @@ Repository for golang with gotty and vim.
 
 `docker run -d --name gotty --rm -p 8080 arunsworld/golang:latest`
 
+`docker run -d --name gotty --rm -p 8080 arunsworld/golang:latest -c user:pass bash`
+
 ## What do you get?
 
 * A golang environment.

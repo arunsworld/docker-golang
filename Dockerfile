@@ -46,6 +46,7 @@ RUN go get -v -d github.com/yudai/gotty && \
 
 COPY vim /root/.vim
 COPY vimrc /root/.vimrc
+RUN echo "export TERM=xterm" >> ~/.bashrc
 
 EXPOSE 8080
 
